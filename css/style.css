@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	background: blue;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background: green;
+	height: 50px;
+}
+
+.sidebar, .main-content {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.sidebar {
+	background: pink;
+	width: 250px;
+	height: 200px;
+}
+
+.main-content {
+	background: yellow;
+	width: 700px;
+	height: 200px;
+}
