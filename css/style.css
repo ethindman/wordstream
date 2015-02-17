@@ -22,14 +22,11 @@ span {
 	color: #E54515;
 }
 
-body {
+body, button {
 	font-family: sans-serif;
 }
 
-.container {
-	width: 1060px;
-	margin: 0 auto;
-}
+/*Header and Navigation*/
 
 .site-logo, nav, #login {
 	display: inline-block;
@@ -37,12 +34,8 @@ body {
 
 .site-title {
 	background: #1379BD;
-	padding: 7px 5px;
+	padding: 15px;
 	color: white;
-}
-
-#login {
-	margin-left: 5px;
 }
 
 nav, #login {
@@ -70,52 +63,21 @@ nav a {
 	padding-right: 10px;
 }
 
-/*Buttons*/
+/*Main Page Elements*/
 
-#login {
-	background: #167EC0;
-	border-radius: 5px;
-	color: white;
-	padding: 5px 10px;
-}
-
-#demo, #trial {
-	width: 170px;
-	margin: 2px auto;
-	border: none;
-	border-radius: 5px;
-	padding: 5px;
-	color: white;
-	font-weight: bold;
-}
-
-#demo {
-	background: blue;
-}
-
-#trial {
-	background: orange;
-}
-
-#ad {
-	margin: 15px 7px;
-	height: 251;
-	width: 202;
-}
-
-.sidebar, .main-content {
-	vertical-align: top;
-	display: inline-block;
+.container {
+	width: 1060px;
+	margin: 0 auto;
 }
 
 .sidebar {
 	width: 225px;
 	padding: 25px;
-	background: pink;
 }
 
-.centered {
-	text-align: center;
+.sidebar, .main-content {
+	vertical-align: top;
+	display: inline-block;
 }
 
 .main-content {
@@ -134,13 +96,65 @@ nav a {
 	margin: 5px auto;
 }
 
-.content-inner {
+.content-wrapper {
 	display: inline-block;
 	width: 580px;
 }
+
+/*Buttons*/
+
+#login {
+	background: #2997DD;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	margin: 5px 15px;
+	cursor: pointer;
+}
+
+#demo, #trial, #action {
+	width: 170px;
+	margin: 2px auto;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#demo {
+	background: #2997DD;
+}
+
+#trial {
+	background: #EF7700;
+}
+
+#action {
+	background: #9DBD05;
+}
+
+/*Images*/
 
 #img-flag {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
+	height: 90;
+	width: 64;
+}
+
+#img-ad {
+	margin: 15px 7px;
+	height: 251;
+	width: 202;
+}
+
+/*Normalize stylings*/
+
+.centered {
+	text-align: center;
 }
