@@ -14,7 +14,7 @@ h3, h2, h3, h4, h5 {
 hr {
 	 border: 0; 
 	 height: 1px; 
-	 background: #333;
+	 background: #cbcbcb;
 }
 
 span {
@@ -90,6 +90,20 @@ nav a {
 	list-style-type: square;
 }
 
+.content-ad {
+	width: 200px;
+	background: #DCDCDC;
+	margin: 15px auto;
+}
+
+.content-ad h3 {
+	padding: 20px;
+}
+
+.content-ad p {
+	padding: 0px 20px 20px 20px;
+}
+
 .content-banner {
 	border: 5px solid #88BBD6;
 	padding: 10px 5px 20px 5px;
@@ -137,20 +151,30 @@ nav a {
 	background: #9DBD05;
 }
 
+#grade {
+	background: #1F639C;
+	width: 170px;
+	margin: -10px 3px 5px 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
 /*Images*/
 
 #img-flag {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
-	height: 90;
-	width: 64;
+	height: 90px;
+	width: 64px;
 }
 
-#img-ad {
-	margin: 15px 7px;
-	height: 251;
-	width: 202;
+#img-ruler {
+	margin-bottom: -5px;
 }
 
 /*Normalize stylings*/
