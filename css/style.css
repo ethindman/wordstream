@@ -3,13 +3,17 @@
 	padding: 0px;
 }
 
+h1, h2, h3, h4, h5, p {
+	padding: 10px 0px;
+}
+
 body {
 	font-family: sans-serif;
 }
 
 .container {
 	/*background: blue;*/
-	width: 960px;
+	width: 1060px;
 	margin: 0 auto;
 }
 
@@ -75,7 +79,31 @@ nav a {
 }
 
 .main-content {
-	background: yellow;
 	width: 700px;
-	height: 200px;
+	padding: 10px 30px;
+}
+
+.main-content h3, h2, h3, h4 {
+	color: #2579B2;
+}
+
+.main-content ul {
+	padding-left: 15px;
+	list-style-type: square;
+}
+
+.banner {
+	border: 5px solid #88BBD6;
+	padding: 10px 5px 20px 5px;
+}
+
+#img-flag {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.inner-content {
+	display: inline-block;
+	width: 580px;
 }
