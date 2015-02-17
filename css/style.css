@@ -7,18 +7,28 @@ h1, h2, h3, h4, h5, p {
 	padding: 10px 0px;
 }
 
+h3, h2, h3, h4, h5 {
+	color: #2579B2;
+}
+
+hr {
+	 border: 0; 
+	 height: 1px; 
+	 background: #333;
+}
+
+span {
+	font-weight: bold;
+	color: #E54515;
+}
+
 body {
 	font-family: sans-serif;
 }
 
 .container {
-	/*background: blue;*/
 	width: 1060px;
 	margin: 0 auto;
-}
-
-header {
-	/*background: green;*/
 }
 
 .site-logo, nav, #login {
@@ -60,11 +70,37 @@ nav a {
 	padding-right: 10px;
 }
 
+/*Buttons*/
+
 #login {
 	background: #167EC0;
 	border-radius: 5px;
 	color: white;
 	padding: 5px 10px;
+}
+
+#demo, #trial {
+	width: 170px;
+	margin: 2px auto;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+#demo {
+	background: blue;
+}
+
+#trial {
+	background: orange;
+}
+
+#ad {
+	margin: 15px 7px;
+	height: 251;
+	width: 202;
 }
 
 .sidebar, .main-content {
@@ -73,9 +109,13 @@ nav a {
 }
 
 .sidebar {
+	width: 225px;
+	padding: 25px;
 	background: pink;
-	width: 250px;
-	height: 200px;
+}
+
+.centered {
+	text-align: center;
 }
 
 .main-content {
@@ -83,27 +123,24 @@ nav a {
 	padding: 10px 30px;
 }
 
-.main-content h3, h2, h3, h4 {
-	color: #2579B2;
-}
-
 .main-content ul {
 	padding-left: 15px;
 	list-style-type: square;
 }
 
-.banner {
+.content-banner {
 	border: 5px solid #88BBD6;
 	padding: 10px 5px 20px 5px;
+	margin: 5px auto;
+}
+
+.content-inner {
+	display: inline-block;
+	width: 580px;
 }
 
 #img-flag {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
-}
-
-.inner-content {
-	display: inline-block;
-	width: 580px;
 }
