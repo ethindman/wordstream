@@ -3,15 +3,64 @@
 	padding: 0px;
 }
 
+body {
+	font-family: sans-serif;
+}
+
 .container {
-	background: blue;
+	/*background: blue;*/
 	width: 960px;
 	margin: 0 auto;
 }
 
 header {
-	background: green;
-	height: 50px;
+	/*background: green;*/
+}
+
+.site-logo, nav, #login {
+	display: inline-block;
+}
+
+.site-title {
+	background: #1379BD;
+	padding: 7px 5px;
+	color: white;
+}
+
+#login {
+	margin-left: 5px;
+}
+
+nav, #login {
+	vertical-align: top;
+	float: right;
+}
+
+nav {
+	border-bottom: 1px solid #ECECEC;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+nav a {
+	color: #ACADA4;
+	text-decoration: none;
+	border-right: 1px solid #ACADA4;
+	padding-right: 10px;
+}
+
+#login {
+	background: #167EC0;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
 }
 
 .sidebar, .main-content {
