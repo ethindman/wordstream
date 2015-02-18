@@ -28,7 +28,7 @@ body, button {
 
 /*Header and Navigation*/
 
-.site-logo, nav, #login {
+#site-logo, nav, #login {
 	display: inline-block;
 }
 
@@ -40,7 +40,6 @@ body, button {
 
 nav, #login {
 	vertical-align: top;
-	float: right;
 }
 
 nav {
@@ -49,6 +48,7 @@ nav {
 	border-right: 1px solid #ECECEC;
 	border-radius: 5px;
 	padding: 10px;
+	margin-left: 50px;
 }
 
 nav ul li {
@@ -133,6 +133,20 @@ div.flag-wrapper-sub {
 	width: 520px;
 }
 
+div.ad-wrapper {
+	width: 200px;
+	background: #DCDCDC;
+	margin: 15px auto;
+}
+
+div.ad-wrapper  h3 {
+	padding: 20px;
+}
+
+div.ad-wrapper  p {
+	padding: 0px 20px 20px 20px;
+}
+
 /*Buttons*/
 
 #login {
@@ -141,7 +155,7 @@ div.flag-wrapper-sub {
 	color: white;
 	padding: 5px 10px;
 	border: none;
-	margin: 5px 15px;
+	margin: 5px;
 	cursor: pointer;
 }
 
@@ -195,24 +209,19 @@ div.flag-wrapper-sub {
 	margin-bottom: -5px;
 }
 
+#home {
+	margin-top: 7px;
+	height: 28px;
+	width: 31px;
+}
+
+#phone {
+	 height: 48px;
+	 width: 33px;
+}
+
 /*Normalize stylings*/
 
-.centered {
+div.centered {
 	text-align: center;
-}
-
-/*advertisement*/
-
-.content-ad {
-	width: 200px;
-	background: #DCDCDC;
-	margin: 15px auto;
-}
-
-.content-ad h3 {
-	padding: 20px;
-}
-
-.content-ad p {
-	padding: 0px 20px 20px 20px;
 }
