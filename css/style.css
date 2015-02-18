@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, p {
 	padding: 10px 0px;
 }
 
-h3, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
 	color: #2579B2;
 }
 
@@ -65,54 +65,72 @@ nav a {
 
 /*Main Page Elements*/
 
-.container {
-	width: 1060px;
+div.container {
+	width: 960px;
 	margin: 0 auto;
 }
 
-.sidebar {
-	width: 225px;
-	padding: 25px;
-}
-
-.sidebar, .main-content {
+div.left-col, div.right-col {
 	vertical-align: top;
 	display: inline-block;
 }
 
-.main-content {
-	width: 700px;
+div.left-col {
+	width: 225px;
+	padding: 25px;
+}
+
+div.right-col {
+	width: 620px;
 	padding: 10px 30px;
 }
 
-.main-content ul {
+div.right-col ul {
 	padding-left: 15px;
 	list-style-type: square;
 }
 
-.content-ad {
-	width: 200px;
-	background: #DCDCDC;
-	margin: 15px auto;
+div.contact-wrapper {
+	margin-bottom: 10px;
 }
 
-.content-ad h3 {
-	padding: 20px;
+div.contact-wrapper img {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
 }
 
-.content-ad p {
-	padding: 0px 20px 20px 20px;
+div.contact-wrapper-left, div.contact-wrapper-right {
+	display: inline-block;
+	vertical-align: top;
 }
 
-.content-banner {
+div.contact-wrapper-left {
+	width: 49%;
+}
+
+div.contact-wrapper-left h3, a {
+	display: inline-block;
+}
+
+div.contact-wrapper-right {
+	width: 36.3%;
+}
+
+div.contact-wrapper-right p, h1 {
+	padding: 0px;
+	text-align: center;
+}
+
+div.flag-wrapper {
 	border: 5px solid #88BBD6;
 	padding: 10px 5px 20px 5px;
 	margin: 5px auto;
 }
 
-.content-wrapper {
+div.flag-wrapper-sub {
 	display: inline-block;
-	width: 580px;
+	width: 520px;
 }
 
 /*Buttons*/
@@ -181,4 +199,20 @@ nav a {
 
 .centered {
 	text-align: center;
+}
+
+/*advertisement*/
+
+.content-ad {
+	width: 200px;
+	background: #DCDCDC;
+	margin: 15px auto;
+}
+
+.content-ad h3 {
+	padding: 20px;
+}
+
+.content-ad p {
+	padding: 0px 20px 20px 20px;
 }
